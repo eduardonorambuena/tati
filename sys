@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('fondo.jpeg');
+    background-image: url('J:/eduar/Desktop/tati-main/fondo.jpeg'); /* Ruta completa de la imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: #474747;
-    color: #000000;
+    color: #fff; /* Cambié el color del texto a blanco */
     padding: 20px;
     text-align: center;
 }
@@ -30,7 +30,7 @@ nav ul li {
 
 /* Estilos para los enlaces del menú de navegación */
 nav ul li a {
-    color: #000;
+    color: #fff; /* Cambié el color del texto a blanco */
     text-decoration: none;
 }
 
@@ -67,6 +67,6 @@ button {
 footer {
     position: fixed; /* Cambié a posición fija */
     bottom: 10px; /* Ajusta la distancia desde la parte inferior */
-    left: 10px; /* Ajusta la distancia desde la izquierda */
+    right: 10px; /* Ajusta la distancia desde la derecha */
     color: #fff; /* Color de texto blanco */
 }
