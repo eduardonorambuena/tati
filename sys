@@ -53,8 +53,11 @@ nav ul li a {
 }
 
 .producto img {
-    width: 100%;
-    height: auto;
+    width: 50%; /* Establece el ancho máximo del 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto original de la imagen */
+    max-width: 50px; /* Establece el ancho máximo de la imagen */
+    display: block; /* Asegura que la imagen se muestre correctamente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 /* Cambia el color de fondo de los botones de morado a blanco */
