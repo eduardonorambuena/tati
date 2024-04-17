@@ -41,10 +41,6 @@ nav ul li a {
     color: #fff;
 }
 
-#seccion-con-imagen-de-fondo {
-    /* Estilos para la sección con imagen de fondo */
-}
-
 #productos {
     text-align: center;
 }
@@ -69,8 +65,8 @@ button {
 
 /* Estilos para el texto de derechos reservados */
 footer {
-    position: absolute; /* Posición absoluta con respecto al cuerpo */
-    bottom: -720px; /* Ajusta la distancia desde la parte inferior */
-    right: 100px; /* Ajusta la distancia desde la derecha */
-    color: #111111fb; /* Color de texto blanco */
+    position: fixed; /* Cambié a posición fija */
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior */
+    left: 10px; /* Ajusta la distancia desde la izquierda */
+    color: #fff; /* Color de texto blanco */
 }
